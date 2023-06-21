@@ -1112,7 +1112,7 @@ X = df_features[onehot_features]
 y = df_features["HeartDisease"]
 
 
-# Splitting data into training, validation, and test sets with a 60:20:20 ratio
+# Splitting data into training, and test sets with a 80:20 ratio
 X_train_grid, X_test_grid, y_train_grid, y_test_grid = train_test_split(
     X, y, test_size=0.20, random_state=417)
 
@@ -1127,7 +1127,7 @@ X_train_reduced_grid = X_train_scaled_grid[:, feature_indices]
 X_test_reduced_grid = X_test_scaled_grid[:, feature_indices]
 ```
 
-**Settting GridSearchCV Parameters to Test**
+**Setting GridSearchCV Parameters to Test**
 
 When using GridSearchCV, you can test various hyperparameters of the KNeighborsClassifier model. In addition to `n_neighbors` and `metric`, you can explore other parameters that may affect the performance of the model. Some common parameters to consider for KNeighborsClassifier are:
 
