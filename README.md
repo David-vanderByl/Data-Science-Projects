@@ -8,9 +8,14 @@
 
 <br>
 
+<!-- 
 <div align="center">
   <img src="images/Data-Science.gif?raw=true" alt="Data Science Projects" style="max-width: 80%; box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1); border-radius: 7px;">
 </div>
+-->
+
+
+![Data-Science.gif](images/Data-Science.gif)
 
 <br>
 
@@ -40,17 +45,23 @@ Machine learning is the heart of modern data science. This section features proj
 
 In this project, I've employed the k-means algorithm to segment credit card customers using a dataset of around 10,000 observations. The elbow curve optimization technique was used for determining the optimal number of clusters. The project also includes informative visualizations, such as the heat map below:
 
+
 <br>
+
+<!--
 <div align="center">
   <img src="images/plot_collage_1.png?raw=true" alt="Credit Card Customer Segmentation" style="max-width: 90%; box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1); border-radius: 7px;">
 </div>
+-->
+
+![plot_collage_1](images/plot_collage_1.png)
 
 <br>
-<br>
+
 
 - **Supervised Machine Learning - Predicting Heart Disease**
 
-Using a dataset with lower-quality health data, I've built and optimized a k-nearest neighbors classifier model through grid search for hyperparameter tuning.
+Using a dataset with lower-quality health data, I've built and optimized a k-nearest neighbors classifier model through grid-search for hyperparameter tuning.
 
 
 
@@ -84,10 +95,13 @@ Visualizing data is key to conveying insights effectively. This section showcase
 - **Visualisation - Politics and Exchange Rates**
 
 <br>
-
+<!-- 
 <div align="center">
   <img src="images/data_vis_1.png?raw=true" alt="Data Visualization" style="max-width: 90%; box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1); border-radius: 7px;">
 </div>
+-->
+
+![data_vis_1](images/data_vis_1.png)
 <br>
 
 ---
