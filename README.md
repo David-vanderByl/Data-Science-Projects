@@ -37,13 +37,22 @@ Welcome to my data science portfolio! This repository showcases a diverse range 
 
 [Explore Projects](https://github.com/David-vanderByl/Data-Science-Projects/tree/main/Machine%20Learning)
 
-Machine learning is the heart of modern data science. This section features projects that demonstrate my solid foundation in machine learning concepts. From predictive modeling to model validation, I've utilized the Scikit-learn library in Python to implement, evaluate, and fine-tune various machine learning techniques.
+Machine learning is the heart of modern data science. This section features projects that demonstrate my solid foundation in machine learning concepts. From predictive modelling to model validation, I've utilized the Scikit-learn library in Python to implement, evaluate, and fine-tune various machine-learning techniques.
+
+
+<br>
+
+- **Supervised Machine Learning - Predicting Health Insurance Costs**
+
+Using linear Regression this project's primary objective is to investigate the cost of health insurance against a number of key indicators. The data can be found on [Kaggle](https://www.kaggle.com/datasets/mirichoi0218/insurance?resource=downloa) and includes 1338 patients, which makes it somewhat limited, but it's interesting to see how limited data can be used to draw insights. 
+
+Aside: if you are interested in the useful visualisation functions within the *Credit Card Customer Segmentation* below this project has improved upon a few of those and provides a couple alternatives.
 
 <br>
 
 - **Unsupervised Machine Learning - Credit Card Customer Segmentation**
 
-In this project, I've employed the k-means algorithm to segment credit card customers using a dataset of around 10,000 observations. The elbow curve optimization technique was used for determining the optimal number of clusters. The project also includes informative visualizations, such as the heat map below:
+In this project, I've employed the k-means algorithm to segment credit card customers using a dataset of around 10,000 observations. The elbow curve optimization technique was used to determine the optimal number of clusters. The project also includes informative visualisations, such as the heat map below:
 
 
 <br>
@@ -61,7 +70,7 @@ In this project, I've employed the k-means algorithm to segment credit card cust
 
 - **Supervised Machine Learning - Predicting Heart Disease**
 
-Using a dataset with lower-quality health data, I've built and optimized a k-nearest neighbors classifier model through grid-search for hyperparameter tuning.
+Using a dataset with lower-quality health data, I've built and optimized a k-nearest neighbours classifier model through grid-search for hyperparameter tuning.
 
 
 
@@ -90,7 +99,7 @@ Data cleaning is the cornerstone of any data science workflow. This section focu
 
 [Explore Projects](https://github.com/David-vanderByl/Data-Science-Projects/tree/main/Data%20Visualization)
 
-Visualizing data is key to conveying insights effectively. This section showcases projects where I've transformed raw data into compelling visual narratives using Python libraries like Matplotlib, Seaborn. Through bar plots, scatter plots, histograms, and more, I've demonstrated the power of visualization in revealing data patterns and correlations. I have also started playing around with the Plotly library (not shown here), which is a relatively now library for building data apps/dashboards I will be sure to share any apps that I may building in the near future. If you interest check out some example on the Ploty website [here](https://plotly.com/examples/).
+Visualizing data is key to conveying insights effectively. This section showcases projects where I've transformed raw data into compelling visual narratives using Python libraries like Matplotlib, Seaborn. Through bar plots, scatter plots, histograms, and more, I've demonstrated the power of visualization in revealing data patterns and correlations. I have also started playing around with the Plotly library (not shown here), which is a relatively new library for building data apps/dashboards I will be sure to share any apps that I may build in the near future. If you are interested check out some examples on the Ploty website [here](https://plotly.com/examples/).
 
 - **Visualisation - Politics and Exchange Rates**
 
