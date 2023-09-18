@@ -39,21 +39,21 @@ Welcome to my data science portfolio! This repository showcases a diverse range 
 
 Machine learning is the heart of modern data science. This section features projects that demonstrate my solid foundation in machine learning concepts. From predictive modelling to model validation, I've utilized the Scikit-learn library in Python to implement, evaluate, and fine-tune various machine-learning techniques.
 
+- **Supervised Machine Learning - Predicting Heart Disease**
 
-<br>
+Using a dataset with lower-quality health data, I've built and optimized a k-nearest neighbours classifier model through grid-search for hyperparameter tuning.
+
 
 - **Supervised Machine Learning - Predicting Health Insurance Costs**
 
 Using linear Regression this project's primary objective is to investigate the cost of health insurance against a number of key indicators. The data can be found on [Kaggle](https://www.kaggle.com/datasets/mirichoi0218/insurance?resource=downloa) and includes 1338 patients, which makes it somewhat limited, but it's interesting to see how limited data can be used to draw insights. 
 
-Aside: if you are interested in the useful visualisation functions within the *Credit Card Customer Segmentation* below this project has improved upon a few of those and provides a couple alternatives.
 
-<br>
+- **Supervised Machine Learning - Linear Regression using Stochastic Gradient Descent**
 
-- **Unsupervised Machine Learning - Credit Card Customer Segmentation**
+This project employs Linear Regression with Stochastic Gradient Descent. The project's primary objective is to create a model for predicting the least busy times at a gym using features such as time, holidays, etc. Throughout this project, you will encounter an initial model, which, upon evaluation, undergoes improvement through data scaling and the implementation of grid-search for hyperparameter optimisation.
 
-In this project, I've employed the k-means algorithm to segment credit card customers using a dataset of around 10,000 observations. The elbow curve optimization technique was used to determine the optimal number of clusters. The project also includes informative visualisations, such as the heat map below:
-
+Aside: In Section 1.2 of this project, you will find a collection of useful data science functions for exploratory data analysis, visualisation, data filtering, transformation, and more. So of the plots from these functions can be seen below. 
 
 <br>
 
@@ -67,10 +67,12 @@ In this project, I've employed the k-means algorithm to segment credit card cust
 
 <br>
 
+- **Unsupervised Machine Learning - Credit Card Customer Segmentation**
 
-- **Supervised Machine Learning - Predicting Heart Disease**
+In this project, I've employed the k-means algorithm to segment credit card customers using a dataset of around 10,000 observations. The elbow curve optimization technique was used to determine the optimal number of clusters. 
 
-Using a dataset with lower-quality health data, I've built and optimized a k-nearest neighbours classifier model through grid-search for hyperparameter tuning.
+
+
 
 
 
